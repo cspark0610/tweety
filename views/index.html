@@ -24,7 +24,11 @@
   </div>
     
 
-  {% if showForm %}
+  {% if showForm %}<!-- se renderiza bajo formato objeto{
+                      name: name,
+                      id: id,
+                      etc
+                      }-->
   <div class="row">
       <div class="col-md-12">
         <form action="/tweets" method="POST">
